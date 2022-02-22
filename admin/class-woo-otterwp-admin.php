@@ -1146,7 +1146,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
         ) );
 /*################## SINGLE ITEMS SETTINGS ########################*/
          $wp_customize->add_section('otterwp_woo_single_item_options', array(
-            'title' => __( 'Singal Item Options', 'woo-otterwp'),
+            'title' => __( 'Single Item Options', 'woo-otterwp'),
             'description' => __( 'You can change shopping cart options from here.', 'woo-otterwp' ),
             'panel' => 'otterwp_woo_options'
         ));
