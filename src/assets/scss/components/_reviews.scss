@@ -1,0 +1,188 @@
+.otw-bottom {.otw-woo-reviews{
+    top: 100vh;
+    display: none;
+    &.otw-woo-reviews-open {
+        top: 210px;
+        width: 100%;
+        left: 0;
+    }
+}
+   .otw-woo-reviews-bg{
+        display: none;
+    }
+}
+.otw-top .otw-woo-reviews{
+    transform: translateY(2000%);
+    transition: all 300ms ease;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 250px);
+    top: 210px;
+    z-index: 11;
+    &__header{
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        box-shadow: 0px 16px 10px 10px #888888;
+        height: 40px;
+        position: relative;
+        border-radius: 10px 10px 0 0;
+        display: flex;
+        align-content: center;
+        &::after{
+            content: "";
+            background: #000;
+            width: 40px;
+            height: 5px;
+            position: absolute;
+            border-radius: 25px;
+            top: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 4px;
+            margin: 0 auto;
+            width: 40px;
+        }
+        h2{
+            margin: 0 0 0 12px;
+            transform: translateY(10px);
+            font-size: 17px;
+
+        }
+        .otw-woo-reviews-close{
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            width: 15px;
+            height: 15px;
+            stroke: #474747;
+        }
+    
+    
+    
+    }
+    &__body{
+        padding: 10px;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        position: absolute;
+        transition: all 350ms;
+        display: block;
+        max-width: 1240px;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: calc(100% - 20px);
+        .otw-reply{
+            padding: 10px 10px 125px 10px;
+            .button{
+                margin: auto;
+                padding: 10px;
+                display: table;
+            }
+        }
+        .review{
+            border-bottom: 1px solid rgba(0, 0, 0, .1);
+            list-style: none;
+            margin: 10px 0 0 0;
+            .comment_container{
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: flex;
+                .comment-text{
+                    -webkit-box-flex: 1;
+                    -webkit-flex-grow: 1;
+                    flex-grow: 1;
+                    overflow: hidden;
+                    padding: 0 8px;
+                    text-align: initial;
+                    .meta{ 
+                        .woocommerce-review__published-date{
+                            font-size: 80%;
+                        }
+                        .woocommerce-review__dash{
+                        display: none;
+                    
+                    }
+                }
+                }
+                .avatar{
+                    width: 45px;
+                    height: 45px;
+                    display: inline-block;
+                    overflow: hidden;
+                    -webkit-flex-shrink: 0;
+                    flex-shrink: 0;
+                    border-radius: 50%;
+
+                }
+            }
+        }
+    }
+    &.otw-woo-reviews-open {
+        transform: translateY(0);
+        position: absolute;
+        top: 210px;
+        width: 100%;
+        z-index: 10;
+
+    }
+}
+// review 
+.otw-woo-review{
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    width: 100vw;
+    left: 0;
+    background: #fff;
+    max-height: 100px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0px 16px 10px 10px #888888;
+    z-index: 9;
+    &__avatar{
+        margin-right: 5px;
+        padding: 10px;
+        h2{
+            font-size: 17px;
+            white-space: nowrap;
+        }
+        img{
+            width: 35px;
+            border-radius: 50%;
+        }
+    }
+    &__content{
+        min-width: 300px;
+        padding: 10px;
+        p{
+            font-size: 12px;
+            margin-bottom: 2px;
+        }
+    }
+    &.otw-woo-review-open{
+        display: none;
+    }
+}
+.otw-woo-reviews-bg{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-radius: 10px 10px 0 0;
+    transition: all 700ms ease;
+    transition-delay: 150ms;
+    opacity: 0;
+    &.otw-transition{
+        z-index: 9;
+    }
+    &.has-transition{
+        opacity: 1;
+        
+    }
+}
+.no-transition{
+    transition: none !important;
+    transition-delay: none !important;
+}
+@media only screen and (max-width: 481px){
+    .woocommerce #reviews {
+        flex-direction: column;
+    }
+}

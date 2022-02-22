@@ -1,0 +1,495 @@
+/* ==========================================================================
+   Slider
+   ========================================================================== */
+   .slider-custom-control {
+	margin-bottom: 30px;
+}
+
+.slider-custom-control input[type=number]::-webkit-inner-spin-button,
+.slider-custom-control input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.slider-custom-control input[type=number] {
+	-moz-appearance: textfield;
+}
+
+.slider-custom-control  .customize-control-title {
+	display: inline-block;
+}
+
+.slider-custom-control input[type=number] {
+	text-align: right;
+	width: 50px;
+	float: right;
+}
+
+.slider-custom-control .slider {
+	width: 85%;
+	float: left;
+	margin: 20px 0 10px;
+}
+
+.slider-custom-control .slider-reset {
+	float: right;
+	cursor: pointer;
+}
+
+.slider-custom-control .slider-value {
+	border: none;
+	text-align: right;
+	width: 50px;
+	margin-right: 5px;
+}
+
+.slider-custom-control .slider-value,
+.slider-custom-control .slider-unit {
+	float: right;
+}
+
+.slider-custom-control .ui-widget.ui-widget-content {
+	border: 1px solid #f4f4f4;
+}
+
+.slider-custom-control .ui-corner-all,
+.slider-custom-control .ui-corner-bottom,
+.slider-custom-control .ui-corner-right,
+.slider-custom-control .ui-corner-br {
+	border-bottom-right-radius: 3px;
+}
+
+.slider-custom-control .ui-corner-all,
+.slider-custom-control .ui-corner-bottom,
+.slider-custom-control .ui-corner-left,
+.slider-custom-control .ui-corner-bl {
+	border-bottom-left-radius: 3px;
+}
+
+.slider-custom-control .ui-corner-all,
+.slider-custom-control .ui-corner-top,
+.slider-custom-control .ui-corner-right,
+.slider-custom-control .ui-corner-tr {
+	border-top-right-radius: 3px;
+}
+
+.slider-custom-control .ui-corner-all,
+.slider-custom-control .ui-corner-top,
+.slider-custom-control .ui-corner-left,
+.slider-custom-control .ui-corner-tl {
+	border-top-left-radius: 3px;
+}
+
+.slider-custom-control .ui-widget-content {
+	background: #f4f4f4 none repeat scroll 0 0;
+	color: #333;
+}
+
+.slider-custom-control .ui-slider-horizontal {
+	height: 3px;
+}
+
+.slider-custom-control .ui-slider {
+	position: relative;
+	text-align: left;
+}
+
+.slider-custom-control .ui-state-default,
+.slider-custom-control .ui-widget-content .ui-state-default,
+.slider-custom-control .ui-widget-header .ui-state-default,
+.slider-custom-control .ui-button,
+.slider-custom-control .ui-button.ui-state-disabled:hover,
+.slider-custom-control .ui-button.ui-state-disabled:active {
+	background: #2885bb none repeat scroll 0 0;
+	border: 1px solid #2885bb;
+	color: #454545;
+	font-weight: normal;
+}
+
+.slider-custom-control .ui-slider-horizontal .ui-slider-handle {
+	margin-left: -7px;
+	top: -7px;
+	border-radius: 50%;
+}
+
+.slider-custom-control .ui-slider .ui-slider-handle {
+	cursor: pointer;
+	height: 14px;
+	position: absolute;
+	width: 14px;
+	z-index: 2;
+}
+
+.slider-custom-control .dashicons-image-rotate {
+	margin-top: 10px;
+	color: #d4d4d4;
+	size: 16px;
+}
+
+.slider-custom-control .dashicons-image-rotate:hover {
+	color: #a7a7a7;
+}
+/* ==========================================================================
+   Toggle Switch
+   ========================================================================== */
+   .toggle-switch-control .customize-control-title {
+	display: inline-block;
+}
+
+.toggle-switch {
+	position: relative;
+	width: 64px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	float: right;
+}
+
+.toggle-switch .toggle-switch-checkbox {
+	display: none;
+}
+
+.toggle-switch .toggle-switch-label {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	border: 2px solid #ddd;
+	border-radius: 20px;
+	padding: 0;
+	margin: 0;
+}
+
+.toggle-switch-inner {
+	display: block;
+	width: 200%;
+	margin-left: -100%;
+	transition: margin 0.3s ease-in 0s;
+}
+
+.toggle-switch-inner:before,
+.toggle-switch-inner:after {
+	display: block;
+	float: left;
+	width: 50%;
+	height: 22px;
+	padding: 0;
+	line-height: 22px;
+	font-size: 14px;
+	color: white;
+	font-family: Trebuchet, Arial, sans-serif;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+
+.toggle-switch-inner:before {
+	content: "ON";
+	padding-left: 8px;
+	background-color: #2885bb;
+	color: #FFFFFF;
+}
+
+.toggle-switch-inner:after {
+	content: "OFF";
+	padding-right: 8px;
+	background-color: #eeeeee;
+	color: #999999;
+	text-align: right;
+}
+
+.toggle-switch-switch {
+	display: block;
+	width: 16px;
+	margin: 3px;
+	background-color: #ffffff;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 38px;
+	border: 2px solid #ddd;
+	border-radius: 20px;
+	transition: all 0.3s ease-in 0s;
+}
+
+.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-inner {
+	margin-left: 0;
+}
+
+.toggle-switch-checkbox:checked + .toggle-switch-label .toggle-switch-switch {
+	right: 0px;
+}
+.otter_icon_title .customize-partial-edit-shortcut, .site-footer-focus-item .customize-partial-edit-shortcut{
+    display: none;
+}
+/* ==========================================================================
+   Text Radio Buttons
+   ========================================================================== */
+   .text_radio_button_control:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.text_radio_button_control .radio-buttons {
+	display: inline-block;
+	border: 1px solid #f9f9fe;
+}
+
+.text_radio_button_control .radio-button-label {
+	cursor: pointer;
+	float: left;
+}
+
+.text_radio_button_control .radio-button-label > input {
+	display: none;
+}
+
+.text_radio_button_control .radio-button-label span {
+	cursor: pointer;
+	font-weight: 500;
+	border: 2px solid #f9f9fe;
+	margin: 0;
+	background-color: #eee;
+	padding: 5px 15px;
+	display: inline-block;
+}
+
+.text_radio_button_control .radio-button-label span:hover {
+	background-color: rgba(255, 255, 255, .2);
+	color: #2885bb;
+}
+
+.text_radio_button_control .radio-button-label > input:checked + span {
+	background-color: #2084bd;
+	color: #fff;
+}
+
+.text_radio_button_control .radio-button-label > input:checked + span:hover {
+	color: #fff;
+}
+/* ==========================================================================
+   Alpha Color Picker
+   ========================================================================== */
+   .customize-control-alpha-color .wp-picker-container .iris-picker {
+	border-bottom:none;
+}
+
+.customize-control-alpha-color .wp-picker-container {
+	max-width: 257px;
+}
+
+.customize-control-alpha-color .wp-picker-open + .wp-picker-input-wrap {
+	width: 100%;
+}
+
+.customize-control-alpha-color .wp-picker-input-wrap input[type="text"].wp-color-picker.alpha-color-control {
+	float: left;
+	width: 195px;
+}
+
+.customize-control-alpha-color .wp-picker-input-wrap .button {
+	margin-left: 0;
+	float: right;
+}
+
+.wp-picker-container .wp-picker-open ~ .wp-picker-holder .alpha-color-picker-container {
+	display: block;
+}
+
+.alpha-color-picker-container {
+	border: 1px solid #dfdfdf;
+	border-top: none;
+	display: none;
+	background-color: #fff;
+	padding: 0 11px 10px;
+	position: relative;
+}
+
+.alpha-color-picker-container .ui-widget-content,
+.alpha-color-picker-container .ui-widget-header,
+.alpha-color-picker-wrap .ui-state-focus {
+	background: transparent;
+	border: none;
+}
+
+.alpha-color-picker-wrap a.iris-square-value:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.alpha-color-picker-container .ui-slider {
+	position: relative;
+	z-index: 1;
+	height: 24px;
+	text-align: center;
+	margin: 0 auto;
+	width: 88%;
+	width: calc( 100% - 28px );
+}
+
+.alpha-color-picker-container .ui-slider-handle,
+.alpha-color-picker-container .ui-widget-content .ui-state-default {
+	color: #777;
+	background-color: #fff;
+	text-shadow: 0 1px 0 #fff;
+	text-decoration: none;
+	position: absolute;
+	z-index: 2;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	border: 1px solid #aaa;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	margin-top: -2px;
+	top: 0;
+	height: 26px;
+	width: 26px;
+	cursor: ew-resize;
+	font-size: 0;
+	padding: 0;
+	line-height: 27px;
+	margin-left: -14px;
+}
+.alpha-color-picker-container .ui-slider-handle.show-opacity {
+	font-size: 12px;
+}
+
+.alpha-color-picker-container .click-zone {
+	width: 14px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	left: 10px;
+}
+
+.alpha-color-picker-container .max-click-zone {
+	right: 10px;
+	left: auto;
+}
+
+.alpha-color-picker-container .transparency {
+	height: 24px;
+	width: 100%;
+	background-color: #fff;
+	background-image: url(../images/color-picker-transparency-grid.png);
+	box-shadow: 0 0 5px rgba(0,0,0,0.4) inset;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0;
+	margin-top: -24px;
+}
+
+@media only screen and (max-width: 782px) {
+	.customize-control-alpha-color .wp-picker-input-wrap input[type="text"].wp-color-picker.alpha-color-control {
+		width: 184px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.customize-control-alpha-color .wp-picker-input-wrap input[type="text"].wp-color-picker.alpha-color-control {
+		width: 172px;
+		height: 33px;
+	}
+}
+
+/* ==========================================================================
+   Alpha Color Picker & Standard Color Picker
+   ========================================================================== */
+.wp-picker-container .wp-color-result.button {
+    min-height: 30px;
+    margin: 0 6px 6px 0;
+    padding: 0 0 0 30px;
+    font-size: 11px;
+}
+.wp-color-result-text {
+    background: #f6f7f7;
+    border-radius: 0 2px 2px 0;
+    border-left: 1px solid #c3c4c7;
+    color: #50575e;
+    display: block;
+    line-height: 2.54545455;
+    padding: 0 6px;
+    text-align: center;
+}
+.wp-core-ui .button, .wp-core-ui .button-primary, .wp-core-ui .button-secondary {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.customize-control-color .wp-color-result,
+.customize-control-alpha-color .wp-color-result {
+	box-shadow: none;
+}
+
+.customize-control-color .wp-color-result .wp-color-result-text,
+.customize-control-alpha-color .wp-color-result .wp-color-result-text {
+	border-left: none;
+}
+
+.wp-picker-holder .iris-picker .iris-palette {
+	box-shadow: none;
+}
+
+.wp-picker-container .iris-picker,
+.wp-picker-container .alpha-color-picker-container {
+	border-radius: 0;
+	border: none;
+}
+
+.wp-picker-container .alpha-color-picker-container {
+	width: 233px;
+}
+.customize-control-wpcolorpicker-alpha-color .wp-color-result {
+	box-shadow: none;
+}
+
+.customize-control-wpcolorpicker-alpha-color .wp-picker-input-wrap input[type="text"].wp-color-picker {
+	float: left;
+	width: 195px !important;
+}
+
+.customize-control-wpcolorpicker-alpha-color .wp-color-result .wp-color-result-text {
+	border-left: none;
+}
+
+.customize-control-wpcolorpicker-alpha-color .iris-picker-inner .iris-slider,
+.customize-control-wpcolorpicker-alpha-color .iris-picker-inner .iris-alpha-slider,
+.customize-control-two-color-gradient .iris-picker-inner .iris-alpha-slider {
+	width: 17.6px !important;
+}
+.customize-control-alpha-color{
+	display: flex;
+    flex-direction: column;
+}
+/* ==========================================================================
+   WPColorPicker Alpha Color Picker
+   ========================================================================== */
+   .customize-control-wpcolorpicker-alpha-color .wp-color-result {
+	box-shadow: none;
+}
+
+.customize-control-wpcolorpicker-alpha-color .wp-picker-input-wrap input[type="text"].wp-color-picker {
+	float: left;
+	width: 195px !important;
+}
+
+.customize-control-wpcolorpicker-alpha-color .wp-color-result .wp-color-result-text {
+	border-left: none;
+}
+
+.customize-control-wpcolorpicker-alpha-color .iris-picker-inner .iris-slider,
+.customize-control-wpcolorpicker-alpha-color .iris-picker-inner .iris-alpha-slider,
+.customize-control-two-color-gradient .iris-picker-inner .iris-alpha-slider {
+	width: 17.6px !important;
+}
