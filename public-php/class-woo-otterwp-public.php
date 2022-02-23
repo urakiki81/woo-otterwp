@@ -190,6 +190,9 @@ class Otterwp_Woo_Public {
                 width: {$icon_size}px;
                 height: {$icon_size}px;
             }
+            .otter_open_image{
+                height: {$icon_size}px; 
+            }
             .otter_open path{
                 fill:{$icon_color}
             }
