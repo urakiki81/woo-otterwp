@@ -228,6 +228,16 @@ wp.customize('woo_otter_icon_size', function(value) {
         $('.otter_open_image svg').css('width', newval + 'px');
     });
 });
+wp.customize('woo_otter_icon_size', function(value) {
+    value.bind(function( newval ) {
+        $('.otter_open_image svg').css('height', newval + 'px');
+    });
+});
+wp.customize('woo_otter_icon_size', function(value) {
+    value.bind(function( newval ) {
+        $('.otter_open_image').css('height', newval + 'px');
+    });
+});
 wp.customize( 'woo_otterwp_cart_text_color', function( value ) {
     value.bind( function( newval ) {
         $( '.otter_icon_title' ).css( 'color', newval );

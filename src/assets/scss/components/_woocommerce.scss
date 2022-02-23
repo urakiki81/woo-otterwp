@@ -202,52 +202,55 @@ html, body{
             box-shadow: none;
         }
 
+        }
+        .otw-woo-reviews{
+            margin-bottom: 96px;
+        }
     }
-    .otw-woo-reviews{
-        margin-bottom: 96px;
+    .woocommerce-loop-product__title{
+        visibility: hidden;
+        display: none;
     }
-}
-.woocommerce-loop-product__title{
-    visibility: hidden;
-    display: none;
-}
-.woocommerce-loop-product__title.otter-woo-data{
-    visibility: visible;
-    display: block;
-}
-.otter-woo-data .woocommerce-loop-product__title{
-    display: block;
-    visibility: visible;
-}
-.otter_open{
-    z-index: 10000;
-    cursor: pointer;
-    position: relative;
-    white-space: nowrap;
-    display: flex;
-    flex-direction: column;
-    padding: 5px 5px;
-    display: flex;
-    justify-content: center;
-    width: min-content;
-    .otter_icon_title{
-        margin-bottom: 0;
-        text-align: center;
+    .woocommerce-loop-product__title.otter-woo-data{
+        visibility: visible;
+        display: block;
     }
-    .otter_open_count{
+    .otter-woo-data .woocommerce-loop-product__title{
+        display: block;
+        visibility: visible;
+    }
+    .otter_open{
+        z-index: 10000;
+        cursor: pointer;
+        position: relative;
+        white-space: nowrap;
         display: flex;
-        justify-items: center;
-        align-items: center;
-        position: absolute;
-        height: auto;
-        transform: translate(10px , -10px);
-        right: 0;
-        top: 0;
-        padding: 0px 6px;
-        p{
-        margin-bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        width: min-content;        
+        .otter_open_image{
+            margin: 0 auto;
+        }
+        .otter_icon_title{
+            margin-bottom: 0;
+            text-align: center;
+            font-weight: 600;
+            line-height: 1;
+        }
+        .otter_open_count{
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            position: absolute;
+            height: auto;
+            transform: translate(10px , -10px);
+            right: 0;
+            top: 0;
+            padding: 0px 6px;
+            p{
+            margin-bottom: 0;
+        }
     }
-}
 }
 .right-bottom-fixed{
     position: fixed;
