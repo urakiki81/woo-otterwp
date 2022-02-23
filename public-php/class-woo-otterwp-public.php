@@ -124,7 +124,7 @@ class Otterwp_Woo_Public {
         $count_color  = get_theme_mod( 'woo_otterwp_cart_count_color', '#fff' );
         $count_bg_color  = get_theme_mod( 'woo_otterwp_cart_count_bg_color', '#0170B9' );
         $count_border_radius  = get_theme_mod( 'woo_otterwp_cart_count_border_radius', 10 );
-        $count_size  = get_theme_mod( 'woo_otterwp_cart_count_text_size', 17 );
+        $count_size  = get_theme_mod( 'woo_otterwp_cart_count_text_size', 12 );
         $icon_size  = get_theme_mod( 'woo_otter_icon_size', 50 );
         $item_bg_color  = get_theme_mod( 'woo_otterwp_cart_item_bg_color', '#fff' );
         $item_border_color  = get_theme_mod( 'woo_otterwp_cart_item_border_color', '#000' );

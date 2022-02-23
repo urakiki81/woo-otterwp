@@ -857,7 +857,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
             )));
         $wp_customize->add_setting( 'woo_otterwp_cart_count_text_size',
             array(
-                'default' => 17,
+                'default' => 12,
                 'transport' => 'postMessage',
                 'sanitize_callback' => 'otterwp_range_sanitization'
             )
