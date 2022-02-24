@@ -543,7 +543,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
                 'section' => 'otterwp_woo_cart_items_options',
                 'input_attrs' => array(
                     'min' => 10,
-                    'max' => 90,
+                    'max' => 30,
                     'step' => 1,
                 ),
             )
@@ -561,7 +561,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
                 'section' => 'otterwp_woo_cart_items_options',
                 'input_attrs' => array(
                     'min' => 10,
-                    'max' => 90,
+                    'max' => 30,
                     'step' => 1,
                 ),
             )
@@ -634,14 +634,14 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
             'section' => 'otterwp_woo_cart_items_options',
             'input_attrs' => array(
                 'min' => 0,
-                'max' => 90,
+                'max' => 25,
                 'step' => 1,
             ),
         )
         ) );
         $wp_customize->add_setting( 'otter_woo_item_shadow_toggle',
         array(
-            'default' => true,
+            'default' => 1,
             'transport' => 'refresh',
             'sanitize_callback' => 'otterwp_switch_sanitization'
         )
@@ -666,8 +666,8 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
             'section' => 'otterwp_woo_cart_items_options',
             'active_callback' => 'woo_otterwp_item_shadow_active',
             'input_attrs' => array(
-                'min' => 1,
-                'max' => 90,
+                'min' => -30,
+                'max' => 30,
                 'step' => 1,
             ),
         )
@@ -704,7 +704,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
             'section' => 'otterwp_woo_cart_items_options',
             'active_callback' => 'woo_otterwp_item_shadow_active',
             'input_attrs' => array(
-                'min' => -30,
+                'min' => 1,
                 'max' => 30,
                 'step' => 1,
             ),
