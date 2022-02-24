@@ -17,351 +17,351 @@ msgstr ""
 msgid "OtterWP Woo Options"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:51
-msgid "Adjust your Header and Navigation sections."
-msgstr ""
-
-#: admin/class-woo-otterwp-admin.php:57
+#: admin/class-woo-otterwp-admin.php:56
 msgid "Cart Options"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:58, admin/class-woo-otterwp-admin.php:1150
+#: admin/class-woo-otterwp-admin.php:57
 msgid "You can change shopping cart options from here."
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:63, admin/class-woo-otterwp-admin.php:911
+#: admin/class-woo-otterwp-admin.php:62, admin/class-woo-otterwp-admin.php:910
 msgid "Cart"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:91
+#: admin/class-woo-otterwp-admin.php:90
 msgid "Display Cart On Add To Cart"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:105
+#: admin/class-woo-otterwp-admin.php:104
 msgid "Disable Cart"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:116, admin/class-woo-otterwp-admin.php:1159
+#: admin/class-woo-otterwp-admin.php:115, admin/class-woo-otterwp-admin.php:1158
 msgid "Choose Header Background Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:128
+#: admin/class-woo-otterwp-admin.php:127
 msgid "Choose Header Border Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:140
+#: admin/class-woo-otterwp-admin.php:139
 msgid "Choose Cart Header Text Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:154
+#: admin/class-woo-otterwp-admin.php:153
 msgid "Header Font Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:173
+#: admin/class-woo-otterwp-admin.php:172
 msgid "Header Height (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:189
+#: admin/class-woo-otterwp-admin.php:188
 msgid "Choose Cart Body Background Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:200
+#: admin/class-woo-otterwp-admin.php:199
 msgid "Choose Cart Footer Background Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:211
+#: admin/class-woo-otterwp-admin.php:210
 msgid "Choose Footer Item Text Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:222
+#: admin/class-woo-otterwp-admin.php:221
 msgid "Choose Footer Price Text Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:237, admin/class-woo-otterwp-admin.php:369
+#: admin/class-woo-otterwp-admin.php:236, admin/class-woo-otterwp-admin.php:368
 msgid "Sample custom control description"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:252
+#: admin/class-woo-otterwp-admin.php:251
 msgid "Footer Item Font Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:271
+#: admin/class-woo-otterwp-admin.php:270
 msgid "Footer Price Font Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:292
+#: admin/class-woo-otterwp-admin.php:291
 msgid "Footer Shadow Offset-X (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:311
+#: admin/class-woo-otterwp-admin.php:310
 msgid "Footer Shadow Offset-y (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:330
+#: admin/class-woo-otterwp-admin.php:329
 msgid "Footer Shadow Blur Radius (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:349
+#: admin/class-woo-otterwp-admin.php:348
 msgid "Footer Shadow Spread Radius (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:368
+#: admin/class-woo-otterwp-admin.php:367
 msgid "Footer Shadow Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:384
+#: admin/class-woo-otterwp-admin.php:383
 msgid "Button Shadow Offset-X (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:403
+#: admin/class-woo-otterwp-admin.php:402
 msgid "Button Shadow Offset-y (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:422
+#: admin/class-woo-otterwp-admin.php:421
 msgid "Button Shadow Blur Radius (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:441
+#: admin/class-woo-otterwp-admin.php:440
 msgid "Button Shadow Spread Radius (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:460
+#: admin/class-woo-otterwp-admin.php:459
 msgid "Button Shadow Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:468
+#: admin/class-woo-otterwp-admin.php:467
 msgid "Cart Item Options"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:479
+#: admin/class-woo-otterwp-admin.php:478
 msgid "Choose Item Background Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:490
+#: admin/class-woo-otterwp-admin.php:489
 msgid "Choose Item Title Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:500
+#: admin/class-woo-otterwp-admin.php:499
 msgid "Choose Item Price Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:510
+#: admin/class-woo-otterwp-admin.php:509
 msgid "Choose Item Input Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:519
+#: admin/class-woo-otterwp-admin.php:518
 msgid "Choose Item Subtotal Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:529
+#: admin/class-woo-otterwp-admin.php:528
 msgid "Choose Item Border Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:543
+#: admin/class-woo-otterwp-admin.php:542
 msgid "Title Font Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:561
+#: admin/class-woo-otterwp-admin.php:560
 msgid "Price Font Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:579
+#: admin/class-woo-otterwp-admin.php:578
 msgid "Subtotal Font Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:597
+#: admin/class-woo-otterwp-admin.php:596
 msgid "In Cart Item Border Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:615
+#: admin/class-woo-otterwp-admin.php:614
 msgid "In Cart Item Border Radius (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:634
+#: admin/class-woo-otterwp-admin.php:633
 msgid "Item Padding (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:652, admin/class-woo-otterwp-admin.php:1031
+#: admin/class-woo-otterwp-admin.php:651, admin/class-woo-otterwp-admin.php:1030
 msgid "Display Shadow"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:666
+#: admin/class-woo-otterwp-admin.php:665
 msgid "Item Shadow Offset-X (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:685
+#: admin/class-woo-otterwp-admin.php:684
 msgid "Item Shadow Offset-y (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:704
+#: admin/class-woo-otterwp-admin.php:703
 msgid "item Shadow Blur Radius (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:723
+#: admin/class-woo-otterwp-admin.php:722
 msgid "Item Shadow Spread Radius (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:742
+#: admin/class-woo-otterwp-admin.php:741
 msgid "Item Shadow Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:750
+#: admin/class-woo-otterwp-admin.php:749
 msgid "Cart Icon Options"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:751
+#: admin/class-woo-otterwp-admin.php:750
 msgid "You can change shopping cart icon options from here."
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:764
+#: admin/class-woo-otterwp-admin.php:763
 msgid "Display icon"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:778
+#: admin/class-woo-otterwp-admin.php:777
 msgid "Icon Select Option"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:798
+#: admin/class-woo-otterwp-admin.php:797
 msgid "Icon Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:814
+#: admin/class-woo-otterwp-admin.php:813
 msgid "Choose Cart Icon Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:829
+#: admin/class-woo-otterwp-admin.php:828
 msgid "Display Count Number"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:840
+#: admin/class-woo-otterwp-admin.php:839
 msgid "Choose Cart Count Text Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:852
+#: admin/class-woo-otterwp-admin.php:851
 msgid "Choose Cart Count Background Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:867
+#: admin/class-woo-otterwp-admin.php:866
 msgid "Count Number Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:886
+#: admin/class-woo-otterwp-admin.php:885
 msgid "Count Background Radius (%)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:906
+#: admin/class-woo-otterwp-admin.php:905
 msgid "Display Text"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:934
+#: admin/class-woo-otterwp-admin.php:933
 msgid "Choose Cart Text Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:949
+#: admin/class-woo-otterwp-admin.php:948
 msgid "Icon Text Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:968
+#: admin/class-woo-otterwp-admin.php:967
 msgid "Floating Cart"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:979
-msgid "Choose Floating Cart Background Color (test)"
+#: admin/class-woo-otterwp-admin.php:978
+msgid "Choose Floating Cart Background Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:993
+#: admin/class-woo-otterwp-admin.php:992
 msgid "Choose Floading Cart Border Radius (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1012
+#: admin/class-woo-otterwp-admin.php:1011
 msgid "Choose Floading Cart Padding (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1046
+#: admin/class-woo-otterwp-admin.php:1045
 msgid "Floating Cart Shadow Offset-X (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1065
+#: admin/class-woo-otterwp-admin.php:1064
 msgid "Floating Cart Shadow Offset-Y (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1084
+#: admin/class-woo-otterwp-admin.php:1083
 msgid "Floating Cart Shadow Blur Radius (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1103
+#: admin/class-woo-otterwp-admin.php:1102
 msgid "Floating Cart Shadow Spread(px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1122
+#: admin/class-woo-otterwp-admin.php:1121
 msgid "Choose Floating Cart Shadow Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1137
+#: admin/class-woo-otterwp-admin.php:1136
 msgid "Choose Floating Cart Position"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1149
-msgid "Singal Item Options"
+#: admin/class-woo-otterwp-admin.php:1148
+msgid "Single Item Options"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1170
+#: admin/class-woo-otterwp-admin.php:1149
+msgid "You can change items view from here."
+msgstr ""
+
+#: admin/class-woo-otterwp-admin.php:1169
 msgid "Choose Header Title Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1181
+#: admin/class-woo-otterwp-admin.php:1180
 msgid "Choose Header Price Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1194
+#: admin/class-woo-otterwp-admin.php:1193
 msgid "Choose Header Swipe Indicator Color"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1207
+#: admin/class-woo-otterwp-admin.php:1206
 msgid "Choose Background Color For Body"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1220
+#: admin/class-woo-otterwp-admin.php:1219
 msgid "Choose Color For Body Title"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1232
+#: admin/class-woo-otterwp-admin.php:1231
 msgid "Choose Color For Body Text"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1245
+#: admin/class-woo-otterwp-admin.php:1244
 msgid "Choose Header height (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1263
+#: admin/class-woo-otterwp-admin.php:1262
 msgid "Choose Header Image Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1281
+#: admin/class-woo-otterwp-admin.php:1280
 msgid "Choose Header Title Text Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1299
+#: admin/class-woo-otterwp-admin.php:1298
 msgid "Choose Header Price Font Size (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1319
+#: admin/class-woo-otterwp-admin.php:1318
 msgid "Choose Single Item Shadow Offset-X (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1337
+#: admin/class-woo-otterwp-admin.php:1336
 msgid "Choose Single Item Shadow Offset-Y (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1355
+#: admin/class-woo-otterwp-admin.php:1354
 msgid "Choose Single Item Shadow Blur Radius (px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1373
+#: admin/class-woo-otterwp-admin.php:1372
 msgid "Choose Single Item Shadow Spread(px)"
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:1391
+#: admin/class-woo-otterwp-admin.php:1390
 msgid "Choose Single Item Shadow Color"
 msgstr ""
 
