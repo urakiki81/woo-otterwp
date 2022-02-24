@@ -88,7 +88,8 @@ class Otterwp_Woo_Public {
         $css =  '';
 
         //print_r($css);
-       
+        
+        $header_bg_height  = get_theme_mod( 'woo_otterwp_cart_header_height', 50 );
         $header_bg_color  = get_theme_mod( 'woo_otterwp_cart_header_bg_color', '#fff' );
         $body_bg_color  = get_theme_mod( 'woo_otterwp_cart_body_bg_color', '#b2b2b2' );
         $header_border_color  = get_theme_mod( 'woo_otterwp_cart_header_border_color', '#000' );

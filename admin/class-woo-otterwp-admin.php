@@ -48,7 +48,6 @@ class Otterwp_Woo_Admin{
         $wp_customize->add_panel( 'otterwp_woo_options',
         array(
            'title' => __( 'OtterWP Woo Options', 'woo-otterwp' ),
-           'description' => esc_html__( 'Adjust your Header and Navigation sections.', 'woo-otterwp' )
        )
     );
 
@@ -168,7 +167,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
         'sanitize_callback' => 'otterwp_range_sanitization'
     )
     );
-    $wp_customize->add_control( new Otterwp_Customize_Alpha_Color_Control( $wp_customize, 'woo_otterwp_cart_header_height',
+    $wp_customize->add_control( new Otterwp_Slider_Custom_Control( $wp_customize, 'woo_otterwp_cart_header_height',
         array(
             'label' => __( 'Header Height (px)', 'woo-otterwp' ),
             'section' => 'otterwp_woo_cart_options',
@@ -466,7 +465,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
 /*################## CART ITEMS SETTINGS ########################*/
          $wp_customize->add_section('otterwp_woo_cart_items_options', array(
             'title' => __( 'Cart Item Options', 'woo-otterwp' ),
-            'description' => __( 'You can change shopping cart options from here.', 'otterwp' ),
+            'description' => __( 'You can change shopping cart items options from here.', 'otterwp' ),
             'panel' => 'otterwp_woo_options',
             'active_callback'   => 'woo_otterwp_disable_cart_active'
         ));
@@ -976,7 +975,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
         ));
         $wp_customize->add_control( new Otterwp_Customize_Alpha_Color_Control( $wp_customize, 'woo_otterwp_floating_cart_bg_color', 
             array(
-                'label' => __('Choose Floating Cart Background Color (test)', 'woo-otterwp'),
+                'label' => __('Choose Floating Cart Background Color', 'woo-otterwp'),
                 'section' => 'otterwp_woo_cart_icon_options',
                 'active_callback' => 'woo_otterwp_floating_active',
                 'settings' => 'woo_otterwp_floating_cart_bg_color'
@@ -1147,7 +1146,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
 /*################## SINGLE ITEMS SETTINGS ########################*/
          $wp_customize->add_section('otterwp_woo_single_item_options', array(
             'title' => __( 'Single Item Options', 'woo-otterwp'),
-            'description' => __( 'You can change shopping cart options from here.', 'woo-otterwp' ),
+            'description' => __( 'You can change items view from here.', 'woo-otterwp' ),
             'panel' => 'otterwp_woo_options'
         ));
         $wp_customize->add_setting('woo_otterwp_item_bg_color', array(

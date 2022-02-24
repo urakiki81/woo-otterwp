@@ -243,10 +243,11 @@ html, body{
             align-items: center;
             position: absolute;
             height: auto;
-            transform: translate(10px , -10px);
+            transform: translate(50%, -50%);
             right: 0;
             top: 0;
             padding: 0px 6px;
+            line-height: 2;
             p{
             margin-bottom: 0;
         }
@@ -277,9 +278,6 @@ html, body{
 }
 .otter_open_count{
     text-align: center;
-    padding: 2px 5px;
-    display: block;
-    height: 100%;
 }
 .otter_open_active .otter_open_count{
     display: block;

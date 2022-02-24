@@ -39,6 +39,11 @@ wp.customize( 'woo_otterwp_cart_header_bg_color', function( value ) {
         $( '.otter_head' ).css( 'background', newval );
     } );
 } );
+wp.customize('woo_otterwp_cart_header_height', function(value) {
+    value.bind(function( newval ) {
+        $('.otter_head').css('height', newval + 'px');
+    });
+});
 wp.customize('woo_otterwp_cart_header_text_size', function(value) {
     value.bind(function( newval ) {
         $('.otter_cart_title').css('font-size', newval + 'px');
@@ -51,7 +56,7 @@ wp.customize( 'woo_otterwp_cart_footer_bg_color', function( value ) {
 } );
 wp.customize( 'woo_otterwp_cart_footer_item_color', function( value ) {
     value.bind( function( newval ) {
-        $( '.otter_footer_products, .otter_value' ).css( 'color', newval );
+        $( '.otter_footer_products, .otter_footer_products .otter_value' ).css( 'color', newval );
     } );
 } );
 
@@ -70,6 +75,7 @@ wp.customize('woo_otterwp_cart_footer_price_size', function(value) {
         $('.otter_footer_total').css('font-size', newval + 'px');
     });
 });
+
 /*################## CART ITEMS SETTINGS ########################*/
 wp.customize( 'woo_otterwp_cart_item_bg_color', function( value ) {
     value.bind( function( newval ) {
