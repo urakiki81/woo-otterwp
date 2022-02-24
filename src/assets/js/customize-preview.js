@@ -31,7 +31,7 @@ wp.customize( 'woo_otterwp_cart_header_text_color', function( value ) {
 
 wp.customize( 'woo_otterwp_cart_body_bg_color', function( value ) {
     value.bind( function( newval ) {
-        $( '.otter_items_scroll' ).css( 'background', newval );
+        $( '.otter_container' ).css( 'background', newval );
     } );
 } );
 wp.customize( 'woo_otterwp_cart_header_bg_color', function( value ) {
@@ -42,6 +42,11 @@ wp.customize( 'woo_otterwp_cart_header_bg_color', function( value ) {
 wp.customize('woo_otterwp_cart_header_height', function(value) {
     value.bind(function( newval ) {
         $('.otter_head').css('height', newval + 'px');
+    });
+});
+wp.customize('woo_otterwp_cart_header_height', function(value) {
+    value.bind(function( newval ) {
+        $('.otter_items_scroll').css('top', newval + 'px');
     });
 });
 wp.customize('woo_otterwp_cart_header_text_size', function(value) {

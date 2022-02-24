@@ -253,7 +253,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
             'active_callback'   => 'woo_otterwp_disable_cart_active',
             'input_attrs' => array(
                 'min' => 10,
-                'max' => 90,
+                'max' => 35,
                 'step' => 1,
             ),
         )
@@ -272,7 +272,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
             'active_callback'   => 'woo_otterwp_disable_cart_active',
             'input_attrs' => array(
                 'min' => 10,
-                'max' => 90,
+                'max' => 35,
                 'step' => 1,
             ),
         )

@@ -168,11 +168,15 @@ class Otterwp_Woo_Public {
             }
             .otter_head{
                 background: {$header_bg_color};
-                border-color: {$header_border_color};     
+                border-color: {$header_border_color};
+                height: {$header_bg_height}px;     
             }
             .otter_cart_title{
                color: {$header_color}; 
                font-size: {$header_size}px;
+            }
+            .otter_items_scroll{
+                top: {$header_bg_height}px;
             }
             .otter_close line{
                 stroke: {$header_color};
