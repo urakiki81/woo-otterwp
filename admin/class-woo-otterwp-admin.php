@@ -1318,7 +1318,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
                 'label' => __( 'Choose Single Item Shadow Offset-X (px)', 'woo-otterwp'),
                 'section' => 'otterwp_woo_single_item_options',
                 'input_attrs' => array(
-                    'min' => 0,
+                    'min' => -30,
                     'max' => 30,
                     'step' => 1,
                 ),
@@ -1336,7 +1336,7 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
                 'label' => __( 'Choose Single Item Shadow Offset-Y (px)', 'woo-otterwp'),
                 'section' => 'otterwp_woo_single_item_options',
                 'input_attrs' => array(
-                    'min' => 0,
+                    'min' => -30,
                     'max' => 30,
                     'step' => 1,
                 ),
