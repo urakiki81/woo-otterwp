@@ -25,7 +25,7 @@ msgstr ""
 msgid "You can change shopping cart options from here."
 msgstr ""
 
-#: admin/class-woo-otterwp-admin.php:62, admin/class-woo-otterwp-admin.php:910
+#: admin/class-woo-otterwp-admin.php:62, admin/class-woo-otterwp-admin.php:910, template-parts/button.php:19, template-parts/mini-cart.php:15
 msgid "Cart"
 msgstr ""
 
@@ -385,10 +385,10 @@ msgstr ""
 msgid "Price"
 msgstr ""
 
-#: template-parts/mini-cart.php:47
+#: template-parts/mini-cart.php:48
 msgid "Item Total"
 msgstr ""
 
-#: template-parts/mini-cart.php:51
+#: template-parts/mini-cart.php:52
 msgid "Subtotal"
 msgstr ""
