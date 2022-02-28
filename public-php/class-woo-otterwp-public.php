@@ -305,20 +305,10 @@ class Otterwp_Woo_Public {
                 height: auto;
                 border-radius: 5px;
             }
-            .otw-woocommerce-single.otw-top .otw-woocommerce-header__thumbnail {
-
-            }
-            .otw-woocommerce-single.otw-bottom .otw-woocommerce-header__content .product_title {
-                font-size: 1rem;
-                
-            }
-            .otw-woocommerce-single.otw-bottom .otw-woocommerce-header__content .price {
-                font-size: 1rem;
-            }
             .otw-minimize-btn{
                 stroke: {$single_title_color};
             }
-            .otw-woocommerce-single .otterwp-content .entry-content .summary h1, .entry-content h2, h2, h3, h4, h5, h6{
+            .otw-woocommerce-single .otterwp-content .entry-content .summary h1, .otw-woocommerce-single h2, .otw-woocommerce-single h2, .otw-woocommerce-single h3, .otw-woocommerce-single h4, .otw-woocommerce-single h5, .otw-woocommerce-single h6{
                 color: {$single_bg_title_color};
             }
             .otw-woocommerce-single .otterwp-content p{
