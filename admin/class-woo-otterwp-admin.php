@@ -968,6 +968,20 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
                 'section' => 'otterwp_woo_cart_icon_options'
             )
         ) );
+        $wp_customize->add_setting( 'woo_otterwp_cart_floating_switch_scroll',
+        array(
+            'default' => 1,
+            'transport' => 'refresh',
+            'sanitize_callback' => 'otterwp_switch_sanitization'
+        )
+        );
+        $wp_customize->add_control( new Otterwp_Toggle_Switch_Custom_control( $wp_customize, 'woo_otterwp_cart_floating_switch_scroll',
+            array(
+                'label' => __( 'Floating Cart Appear On Scroll', 'woo-otterwp' ),
+                'section' => 'otterwp_woo_cart_icon_options',
+                'active_callback' => 'woo_otterwp_floating_active',
+            )
+        ) );
         $wp_customize->add_setting('woo_otterwp_floating_cart_bg_color', array(
             'default' => '#fff',
             'transport' => 'postMessage',

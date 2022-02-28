@@ -217,6 +217,15 @@
     public_otter_show = otter_show;
     public_otter_get_cart = otter_get_cart;
 
+    if ($(".otter_woo_scroll")[0]){
+        $(document).scroll(function() { 
+            if($(window).scrollTop() === 0) {
+                $(".otter_woo_scroll").addClass('otw-woo-hide');
+            }else{
+                $(".otter_woo_scroll").removeClass('otw-woo-hide');
+            }
+         });
+    }
 
 
 })( jQuery );

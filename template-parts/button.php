@@ -16,11 +16,12 @@ $iconCount  = get_theme_mod( 'otter_woo_icon_count_display', 1 );
 $iconText  = get_theme_mod( 'otter_woo_icon_text_display', 1 );
 $value = get_theme_mod( 'otter_woo_icon_type', 'cart', 1);
 $shadow  = get_theme_mod( 'otter_woo_floating_cart_shadow_toggle', 1 );
-$title = get_theme_mod('woo_otter_cart_icon_text_setting', __('Cart', 'OtterWoo'));
+$scroll  = get_theme_mod( 'woo_otterwp_cart_floating_switch_scroll', 1 );
+$title = get_theme_mod('woo_otter_cart_icon_text_setting', __('Cart', 'woo-otterwp'));
 
 ?>
 
-<div class="otter_open otw-floating-cart <?php if($shadow === 1){ echo 'otter_woo_shadow';}?> <?php echo get_theme_mod( 'woo_otterwp_floating_cart_position', ('right-bottom-fixed')); ?>">
+<div class="otter_open otw-floating-cart <?php if($scroll === 1){ echo 'otter_woo_scroll otw-woo-hide';}?> <?php if($shadow === 1){ echo 'otter_woo_shadow';}?> <?php echo get_theme_mod( 'woo_otterwp_floating_cart_position', ('right-bottom-fixed')); ?>">
 
 	<?php
 	if($iconCart === 1){ 
