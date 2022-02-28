@@ -12,12 +12,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 $slider_out  = get_theme_mod( 'otter_woo_cart_add_display', 1 );
+$title = get_theme_mod('woo_otter_cart_text_setting', __('Cart', 'woo-otterwp'));
 ?>
 <div class="otter_bg"></div><!--- .otter_bg --->
 <div class="otter_container_wrap otter_container_wrap <?php if($slider_out === 1){ echo 'otter_woo_slide';}?> ">
     <div class="otter_container otter_container_side">
         <div class="otter_head">
-            <div class="otter_head_title otter_center"> <h2 class="otter_cart_title"><?php echo wp_kses_post(get_theme_mod( 'woo_otter_cart_text_setting')); ?></h2></div><!--- .otter_head_title --->
+            <div class="otter_head_title otter_center"> <h2 class="otter_cart_title"><?php echo $title; ?></h2></div><!--- .otter_head_title --->
             <div class="otter_close">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.008 16.008">
                     <g transform="translate(-1865.147 -163.146)">
