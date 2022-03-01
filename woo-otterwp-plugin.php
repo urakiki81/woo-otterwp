@@ -20,7 +20,6 @@ if (!defined('ABSPATH')) {
  */
 define( 'WAMC_INCONVER_VERSION', '1.0.2' );
 if ( ! function_exists( 'wp_fs' ) ) {
-    // Create a helper function for easy SDK access.
     function wp_fs() {
         global $wp_fs;
 
@@ -42,8 +41,6 @@ if ( ! function_exists( 'wp_fs' ) ) {
                     'first-path'     => 'plugins.php',
                     'support'        => false,
                 ),
-                // Set the SDK to work in a sandbox mode (for development & testing).
-                // IMPORTANT: MAKE SURE TO REMOVE SECRET KEY BEFORE DEPLOYMENT.
                 'secret_key'          => 'undefined',
             ) );
         }
