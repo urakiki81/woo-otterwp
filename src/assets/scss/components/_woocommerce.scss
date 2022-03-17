@@ -63,6 +63,8 @@ html, body{
                 left: 50%;
                 transform: translateX(-50%);
                 box-sizing: content-box;
+                animation: forwards 1000ms ease-in-out 2000ms;
+                animation-name: otw-swipe;
             }
             &__thumbnail{
                 flex: 0 0 125px;
@@ -116,6 +118,15 @@ html, body{
                     height: fit-content;
                     width: fit-content;
                 }
+            .otw-swipe-msg{
+                position: absolute;
+                opacity: 0;
+                left: 50%;
+                animation: forwards 1000ms ease-in-out 2100ms;
+                animation-name: otw-swipe-msg;
+                z-index: 9999;
+                font-weight: 600;
+            }
         }
   
     &.otw-bottom{
@@ -399,4 +410,43 @@ html, body{
 }
 .otw-woocommerce-single.otw-bottom .otw-woocommerce-header__content .woocommerce-Price-amount {
     font-size: 1rem;
+}
+@keyframes otw-swipe-msg {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, 0% );
+    }
+    1%{
+        opacity: .5;
+        transform: translate(-50%, 25% );
+    }
+    60%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+        transform: translate(-50%, 90% );
+    }
+    95%{
+        opacity: .5;
+    }
+    99%{
+        opacity: 0;
+        transform: translate(-50%, 100% );
+    }
+    100% {
+        transform: translate(-50%, 0% );
+        display: none;
+    }
+}
+@keyframes otw-swipe{
+    0% {
+        transform: translate(-50%, 0% );
+    }
+    50%{
+        transform: translate(-50%, 100% );
+    }
+    100% {
+        transform: translate(-50%, 0% );
+    }
 }

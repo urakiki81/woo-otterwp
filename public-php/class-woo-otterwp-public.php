@@ -282,6 +282,9 @@ class Otterwp_Woo_Public {
             .otw-woo-reviews-bg{
                 background-color: {$single_bg_color};
             }
+            .otw-swipe-msg{
+                top: calc({$single_header_size}px + 25px);
+            }
             .otw-woocommerce-touch{
                 top: calc({$single_header_size}px + 25px);
             }

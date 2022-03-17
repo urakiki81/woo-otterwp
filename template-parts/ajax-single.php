@@ -41,7 +41,7 @@ $product_title = $product->get_title();
 
         </div> <!--- .otw-woocommerce-header__content --->
         <?php echo woocommerce_template_loop_add_to_cart(); ?>
-        
+        <p class="otw-swipe-msg"><?php echo _e('Sipe Down To Close', 'woo-otterwp'); ?></p>
     </div><!--- .otw-woocommerce-header --->
 
     <div id="project-content" class="otterwp-content">
