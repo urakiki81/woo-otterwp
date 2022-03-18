@@ -124,6 +124,7 @@ html, body{
                 left: 50%;
                 animation: forwards 1000ms ease-in-out 2100ms;
                 animation-name: otw-swipe-msg;
+                font-size: 12px;
                 z-index: 9999;
                 font-weight: 600;
             }
@@ -205,13 +206,13 @@ html, body{
             margin-bottom: 50px;
             display: flex;
             justify-content: center;
-        }
-        .otw-margin{
-            margin-bottom: 70px;
-        }
-        .entry-content .entry.loop-entry{
-            box-shadow: none;
-        }
+            }
+            .otw-margin{
+                margin-bottom: 70px;
+            }
+            .entry-content .entry.loop-entry{
+                box-shadow: none;
+            }
 
         }
         .otw-woo-reviews{

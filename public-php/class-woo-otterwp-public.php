@@ -150,6 +150,7 @@ class Otterwp_Woo_Public {
         $single_price_font_size  = get_theme_mod( 'woo_otterwp_header_price_text_size', 15 );
         $single_bg_color  = get_theme_mod( 'woo_otterwp_item_bg_color', '#fff' );
         $single_swipe_color  = get_theme_mod( 'woo_otterwp_swipe_color', 'rgba(0,0,0,0.15)' );
+        $single_swipe_text_color = get_theme_mod('woo_otterwp_swipe_text_color', 'rgba(0,0,0,1)');
         $single_shadow_color  = get_theme_mod( 'woo_otter_single_shadow_alpha_color', 'rgba(0,0,0,0.15)' );
         $single_shadow_offsetx  = get_theme_mod( 'woo_otter_single_shadow_offsetx', 1 );
         $single_shadow_offsety  = get_theme_mod( 'woo_otter_single_shadow_offsety', 1 );
@@ -283,6 +284,7 @@ class Otterwp_Woo_Public {
                 background-color: {$single_bg_color};
             }
             .otw-swipe-msg{
+                color: {$single_swipe_text_color};
                 top: calc({$single_header_size}px + 25px);
             }
             .otw-woocommerce-touch{

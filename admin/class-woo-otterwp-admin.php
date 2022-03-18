@@ -1209,6 +1209,19 @@ $wp_customize->add_section('otterwp_woo_cart_options', array(
             'settings' => 'woo_otterwp_swipe_color'
         
         )));
+        $wp_customize->add_setting( 'woo_otterwp_swipe_text_color',
+        array(
+            'default' => 'rgba(0,0,0,1)',
+            'transport' => 'postMessage',
+            'sanitize_callback' => 'otterwp_hex_rgba_sanitization'
+        )
+    );
+    $wp_customize->add_control( new Otterwp_Customize_Alpha_Color_Control( $wp_customize, 'woo_otterwp_swipe_text_color', array(
+        'label' => __('Choose Header Swipe Text Color', 'woo-otterwp'),
+        'section' => 'otterwp_woo_single_item_options',
+        'settings' => 'woo_otterwp_swipe_text_color'
+    
+    )));
         $wp_customize->add_setting( 'woo_otterwp_single_body_bg_color',
         array(
             'default' => '#fff',
